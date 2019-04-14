@@ -21,8 +21,16 @@ h1 {
     line-height: 70px;
 }
 
-h2 {
-    margin-top: 20px;
+h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 10;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .button {
@@ -85,9 +93,11 @@ nav a {
   }
 
 
-#about-countainer {
-    margin-top: 1000px;
-    float: left;
+
+
+#about-container  {
+    border-bottom: 2px solid lightgray;
+    
 }
 
 #projects-container {
@@ -95,7 +105,7 @@ nav a {
 }
 
 
-
+a:-webkit-any-link{text-decoration:none;}
 
 
 
