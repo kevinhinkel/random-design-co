@@ -96,7 +96,7 @@ nav a {
 
 
 #about-container  {
-    border-bottom: 2px solid lightgray;
+    border-bottom: 1px solid lightgray;
     
 }
 
@@ -108,4 +108,15 @@ nav a {
 a:-webkit-any-link{text-decoration:none;}
 
 
+footer {  
+    border-top: 1px solid lightgray;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    /* background-color: white; */
+    clear: both;
+}
 
+footer a:visited{
+    color : #333;
+}
