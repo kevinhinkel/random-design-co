@@ -27,7 +27,7 @@ h3 {
 }
 
 p {
-    margin-top: 10;
+    margin-top: 10px;
     margin-right: 50px;
     margin-left: 20px;
     margin-bottom: 50px;
@@ -102,12 +102,6 @@ nav a {
     border-bottom: 1px solid lightgray;  
 }
 
-.thumbnail {
-    width: 45%;
-    height: 45%;
-    float: left;
-    margin: 1px 1px 1px 1px;
-}
 
 .grid {
     margin-top: 19px;
@@ -117,10 +111,19 @@ nav a {
 
 img {
     max-width: 100%;
+    opacity: .4;
 }
 
-figure:hover img{
+.thumbnail {
+    width: 45%;
+    height: 45%;
+    float: left;
+    margin: 1px 1px 1px 1px;
+}
+
+.thumbnail a:hover{
     opacity: 1;
+    color: white;
 }
 
 
@@ -129,7 +132,7 @@ figure:hover img{
 }
 
 .projects-bg {
-    opacity: 0.4;
+    /* opacity: 0.4; */
     display: block;
     position: relative;
     z-index: -10;
@@ -152,7 +155,6 @@ figure:hover img{
 
 
 
-a:-webkit-any-link{text-decoration:none;}
 
 
 footer {  
